@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "To Travel",
+  "name": "App para registrar viagem e lugares que desejamos ir",
   "icons": [
     {
       "src": "favicon.ico",

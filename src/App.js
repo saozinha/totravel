@@ -9,7 +9,8 @@ function App() {
         <div className="App">
 
           <SideBar pageWrapId={"page-wrap"} outerContainerId={"App"} />  
-
+          <br />
+          
           <header className="App-header">
               <div id="page-wrap">
                 <h1>Viagar pelo Mundo  </h1>

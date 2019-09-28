@@ -1,12 +1,16 @@
 import React, { Component } from "react";  
 
-class Novas extends Component {
- 
+import SideBar from "./sidebar";  
 
-      render() {
+class Novas extends Component {
+       render() {
         return (
-          <div>
-              <h1>Novas Viagens </h1>
+          <div className="App">
+             <SideBar pageWrapId={"page-wrap"} outerContainerId={"App"} />  
+              <br />
+                <div> 
+                  <h1>Novas Viagens </h1>
+                </div>
           </div>
         );
       } 
