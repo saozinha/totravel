@@ -1,0 +1,23 @@
+.default-layout {
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header, footer {
+  background: white;
+  color: gray;
+}
+
+.main-container {
+  padding: 10px;
+}
+
+.layout-footer {
+  padding: 10px;
+  background: gray;
+  color: white;
+}

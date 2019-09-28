@@ -1,0 +1,8 @@
+{ 
+    "viagens": [
+        { "Titulo": "Irlanda", "Pais": "Europa", "Viajei": 2 }, 
+        { "Titulo": "Portugal", "Pais": "Europa", "Viajei": 3 }, 
+        { "Titulo": "Rio de Janeiro", "Pais": "Brasil", "Viajei": 2 }, 
+        { "Titulo": "Orlando", "Pais": "USA", "Viajei": 2 }
+    ]
+}

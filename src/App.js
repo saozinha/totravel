@@ -1,26 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
+import "./styles.css";
 import './App.css';
+import SideBar from "./components/layouts/sidebar";  
+ 
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return ( 
+        <div className="App">
+
+          <SideBar pageWrapId={"page-wrap"} outerContainerId={"App"} />  
+
+          <header className="App-header">
+              <div id="page-wrap">
+                <h1>Viagar pelo Mundo  </h1>
+                <h2>Viagens que fiz e quero fazer na vida !</h2>
+              
+              </div>
+          </header>
+        </div> 
+  )
 }
 
-export default App;
+export default App; 
+
+
